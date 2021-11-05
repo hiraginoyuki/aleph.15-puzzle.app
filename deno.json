@@ -12,9 +12,9 @@
     "jsx": "react"
   },
   "lint": {},
-  "format": {
+  "fmt": {
     "options": {
-      "useSingleQuote": true
+      "singleQuote": true
     }
   }
 }
