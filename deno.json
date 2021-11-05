@@ -12,5 +12,9 @@
     "jsx": "react"
   },
   "lint": {},
-  "format": {}
+  "format": {
+    "options": {
+      "useSingleQuote": true
+    }
+  }
 }
