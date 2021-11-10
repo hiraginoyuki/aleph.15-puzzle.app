@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 
-export default function App(
-  { Page, pageProps }: { Page: FC; pageProps: Record<string, unknown> },
-) {
+type AppProps = { Page: FC; pageProps: Record<string, unknown> }
+
+export default function App({ Page, pageProps }: AppProps) {
   return (
     <main>
       <head>
